@@ -1,0 +1,42 @@
+body{
+    background-color: skyblue;
+}
+.container{
+    background-color: #fff;
+    text-align: center;
+    margin: 80px 320px 0 320px;
+    padding-bottom: 12px;
+    box-shadow: 2px 4px black;
+    border-radius: 0 0 12px 0;
+}
+
+h2{
+    font-size: 120px;
+    margin-bottom: -10px;
+}
+button{
+    padding: 12px;
+    font-size: 22px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    margin-right: 18px;
+    border-radius: 6px;
+}
+button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#decrease{
+    background-color: red;
+
+}
+
+#reset{
+    background-color: yellow;
+}
+
+#increase{
+    background-color: green;
+}
